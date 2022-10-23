@@ -24,3 +24,20 @@ class Cat(Pets):
         self.hignrun = False
         self.hignjump = True
         self.fly = False
+
+
+d = Dog()
+p = Parrot()
+c = Cat()
+print("dog")
+print(d.hignrun)
+print(d.fly)
+print(d.hignjump)
+print("parrot")
+print(p.hignrun)
+print(p.fly)
+print(p.hignjump)
+print("cat")
+print(c.hignrun)
+print(c.fly)
+print(c.hignjump)
