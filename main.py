@@ -17,3 +17,10 @@ class Parrot(Pets):
         self.hignrun = False
         self.hignjump = False
         self.fly = True
+
+class Cat(Pets):
+    def __init__(self):
+        super().__init__()
+        self.hignrun = False
+        self.hignjump = True
+        self.fly = False
